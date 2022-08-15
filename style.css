@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+}
+
+figure {
+  filter: invert(100%) sepia(38%) saturate(0%) hue-rotate(349deg) brightness(102%) contrast(104%);
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margint-top: 0;
+  padding-top:15px;
+  width: 60px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width:600px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Arvo', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+li {
+  display: inline-flex;
+  list-style: none;
+  padding-top: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding-top:20px;
+}
+
+a:hover, a:link, a:visited {
+  text-decoration: none;
+}
+
+p {
+  margin:0;
+}
+
+#projetosEmDes {
+  display: flex;
+  justify-content: center;
+}
+
+#nome, #email, #assunto {
+  width: 400px;
+}
+
+#mensagem {
+  height: 150px;
+  width: 400px;
+}
+
+#topo {
+  background-color: #18AF6C;
+}
+
+#breveApresentacao {
+  background-color: #18AF6C;
+  color: #28292D;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 20px;
+  text-align: justify; 
+}
+
+#slogan {
+  background-color: #28292D;
+  color: white;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menu {
+  background-color: #28292D;
+  color: white;
+  font-family: 'Arvo', serif;
+  height: 40px;
+  text-align: center;
+}
+
+#sobre {
+  background-color: #ffffff;
+  color: #18af6c;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 150px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 150px;
+  text-align: justify;
+}
+
+#projetos {
+  background-color: #18af6c;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 150px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 150px;
+  text-align: justify; 
+}
+
+#contato {
+  background-color: #ffffff;
+  color: #18af6c;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 150px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 150px;
+  text-align: justify;  
+}
+
+.itensMenu {
+  color:white;
+  padding-left: 15px;
+  padding-right:15px;
+}
+
+.itensMenu:hover {
+  color: yellow;
+}
+
+.itensRodape {
+  color: white;
+  display: inline;
+  padding-left: 15px;
+  padding-right:15px;
+  text-align: center;
+}
+
+.itensRodape:hover {
+  color: yellow;
+}
+
+.tituloSecao {
+  font-family: 'Arvo', serif;
+  font-size: 75px;
+  text-align: center;
+}
+
+.emDes {
+  background-color: white;
+  color: #18af6c;
+  display: inline-block;
+  font-family: 'Arvo', serif;
+  font-size: 15px;
+  height: 200px;
+  line-height: 200px;
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-top:10px;
+  text-align: center;
+  width: 200px;
+}
+

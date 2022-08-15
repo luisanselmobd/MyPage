@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+
+<head>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Luis Anselmo">
+  <meta name="description"
+    content="Página do Luís Anselmo, um aspirante a desenvolvedor de São José dos Pinhais/PR, onde você encontrará mais informações sobre sua formação, projetos e redes sociais.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Luís Anselmo - Um aspirante a desenvolvedor</title>
+</head>
+
+<body>
+  
+  <script src="https://kit.fontawesome.com/bfa1277837.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  
+  <header>
+    <div id="topo">
+      <figure>
+        <img id="img1" src="logo.svg" alt="Minha Logo.">
+      </figure>
+      <h1>luisAnselmo</h1>
+    </div>
+    <div id="breveApresentacao">
+      <p><span id="slogan"><strong>um aspirante a desenvolvedor</strong></span> nascido em 96 que vive por aí correndo ou pedalando sua velha barra circular pelas ruas de São José dos Pinhais/PR atrás de um futebol, uma conversa ou qualquer outra coisa que apareça como uma boa ideia - e, de agora em diante, também atrás de problemas que possam ser resolvidos com tecnologia.</p>
+    </div>
+  </header>
+
+  
+  <nav>
+    <div id="menu">
+      <ul id="menu">
+        <li class="itensMenu"><a href="#tituloSobre" class="itensMenu">sobre</a></li>
+        <li class="itensMenu"><a href="#tituloProjetos" class="itensMenu">projetos</a></li>
+        <li class="itensMenu"><a href="#tituloContato" class="itensMenu">contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <main>
+    
+    <section id="sobre">
+      <h2 class="tituloSecao" id="tituloSobre">sobre</h2>
+      <p>Diferentemente de muitos da área, nunca fui um fanático por tecnologia nem 
+        amante do universo geek - foram outros os caminhos que me trouxeram até aqui.</p>
+      <p>Enquanto cursava a graduação em Filosofia, pude me envolver com empreendedorismo social e, assim, ver o poder
+        que a tecnologia possui para a resolução de problemas - e essa percepção se tornou ainda clara quando ingressei
+        no mercado de trabalho.</p>
+      <p>Esse foi o caminho que me levou à graduação em Engenharia de Software, onde desejo desenvolver as habilidades
+        necessárias para poder contribuir com tecnologia em projetos de impacto.</p>
+    </section>
+
+    
+    <section id="projetos">
+      <h2 class="tituloSecao" id="tituloProjetos">projetos</h2>
+      <nav id="projetosEmDes">
+        <p class="emDes">em desenvolvimento</p>
+        <p class="emDes">em desenvolvimento</p>
+        <p class="emDes">em desenvolvimento</p>
+        <p class="emDes">em desenvolvimento</p>
+      </nav>
+    </section>
+
+    
+    <section id="contato">
+      <h2 class="tituloSecao" id="tituloContato">contato</h2>
+      <form action="">
+        <label for="nome">Digite seu nome:</label>
+        <input id="nome" type="text" placeholder="Fidípides"> <br><br>
+        <label for="nome">Digite seu e-mail:</label>
+        <input id="email" type="text" placeholder="fidipides@email.com"> <br><br>
+        <label for="assunto">Digite o assunto:</label>
+        <input id="assunto" type="text" placeholder="Vitória grega na batalha contra os persas"> <br><br>
+        <label for="mensagem">Digite sua mensagem: </label>
+        <input id="mensagem" type="text" placeholder="Vencemos!"> <br><br>
+        <label for="anexo">Anexe seu(s) arquivo(s):</label>
+        <input id="anexo" type="file" id="file" multiple placeholder="Enviar Arquivos"> <br><br>
+        <button onclick="alertar();">Enviar</button>
+      </form>
+    </section>
+
+    
+  </main>
+
+  
+  <footer>
+    <address>
+      <nav class="itensRodape">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:luis.dallagassa@al.infnet.edu.br" class="itensRodape">luis.dallagassa@al.infnet.edu.br</a>
+      </nav>
+      <nav class="itensRodape">
+        <i class="fa-solid fa-square-phone"></i>
+        <a href="tel:+5541988923402" class="itensRodape">+55 41 9 8892 3402</a>
+      </nav>
+      <nav class="itensRodape">
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/luis-anselmo" class="itensRodape">in/luis-anselmo</a>
+      </nav>
+      <nav class="itensRodape">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/luisanselmobd" class="itensRodape">luisanselmobd</a>
+      </nav>
+    </address>
+  </footer>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
